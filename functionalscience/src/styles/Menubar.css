@@ -1,0 +1,33 @@
+    .menubar-navlink{
+        background-color: rgb(255, 250, 253);
+        box-shadow: 5px 2px 5px 2px rgb(197, 197, 197);
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        padding: 1.2rem;
+        display: none;
+    }
+    .nav-link{
+        color: rgba(0, 0, 0, 0.800);
+        text-decoration: none;
+        list-style-type:none ;
+        font-size: 1.8rem;
+    }
+    .nav-link:hover {
+        transform: scale(1.1);
+        color: black;
+        ;
+    }
+
+    @media screen and (min-width:1024px) {
+        .menubar-navlink{
+            display: flex;
+        }
+        .nav-link:hover::before{
+            content: "\f068";
+            font-family: "Font Awesome 5 Free";
+            font-weight:900;
+            color: #008cff;
+            margin-right:0.5rem ;
+        }
+    }

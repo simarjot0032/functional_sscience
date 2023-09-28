@@ -1,0 +1,31 @@
+:root{
+    --primaryc:#54acf5;
+    --backc:rgb(255, 250, 253);
+
+  }
+.container{
+    background-color: var(--backc);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+}
+.home-img{
+    width:270px;
+    height: 270px;
+    margin: auto;
+    
+}
+hr{
+    background-color: var(--primaryc);
+    width: 100%;
+   /* margin-right:55% ; */
+    height: 4px;
+    border: 0;
+}
+.home-container-heading{
+    color: orange;
+    margin: 0;
+    text-align: left;
+}

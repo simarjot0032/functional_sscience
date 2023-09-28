@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import { PiBooksDuotone } from "react-icons/pi";
-import { AiOutlineMenuFold, AiOutlineCloseCircle } from "react-icons/ai";
+import {
+  AiOutlineCloseCircle,
+  AiOutlineMenuFold,
+  AiTwotoneStar,
+} from "react-icons/ai";
+import { BiUserCircle } from "react-icons/bi";
 import { useState } from "react";
 function Navbar() {
   const [visiblity, setvisiblity] = useState("close");
@@ -18,9 +23,9 @@ function Navbar() {
           <h1 className="name">Functional Science</h1>
         </div>
         <div className="right">
-          <i className="fa-regular fa-star fa-xl"></i>
-          <i className="fa-regular fa-user fa-xl"></i>
-          <AiOutlineMenuFold size="28" onClick={onclicked}></AiOutlineMenuFold>
+          <AiTwotoneStar size={28} className="star"></AiTwotoneStar>
+          <BiUserCircle size={28} className="user"></BiUserCircle>
+          <AiOutlineMenuFold className="menu" size={28} onClick={onclicked} />
         </div>
       </div>
       <div className={"center " + " " + visiblity}>
