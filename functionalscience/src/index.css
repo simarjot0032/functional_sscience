@@ -17,28 +17,27 @@
 .navbar{
   background-color: #54acf5;
   padding: 1rem 0.5rem ;
+  position: sticky;
+  top: 0;
 }
 .close{
   position: absolute;
   top: 2%;
+  right: 1%;
 }
 .name{
   margin: 0;
   font-size:20px;
 }
 .center{
-  background-color: black;
-  width: 58vw;
-  max-width: 500px;
-  position: absolute;
-  right: 0;
-  height: 100vh;
-  top:0;
+  background-color: #54acf5;
+  /* max-width: 500px; */
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   display: none;
+  position: sticky;
+  top:77px;
 
 }
 .open{
@@ -50,7 +49,7 @@
   color: white;
   line-height: 4rem;
   font-size: 2rem;
-  text-align: center;  
+ margin-left:2rem ;
 }
 .menubar-navlink{
   display: none;

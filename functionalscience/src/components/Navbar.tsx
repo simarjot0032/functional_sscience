@@ -5,6 +5,7 @@ import {
   AiOutlineMenuFold,
   AiTwotoneStar,
 } from "react-icons/ai";
+
 import { BiUserCircle } from "react-icons/bi";
 import { useState } from "react";
 function Navbar() {
