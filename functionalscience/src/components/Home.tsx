@@ -1,6 +1,7 @@
 import personreading from "../assets/p2-removebg-preview.png";
 import "../styles/Home.css";
 import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from "react-icons/bi";
+import { TfiBlackboard } from "react-icons/tfi";
 const Home = () => {
   return (
     <>
@@ -36,8 +37,26 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="feature">
-          <h2 className="heading-feature">What we can provide?</h2>
+        <div className="specialization">
+          <h2 className="heading-specialization">Our Specialization</h2>
+          <hr className="hr-specialization" />
+          <div className="rowspecial">
+            <div className="cards">
+              <div className="specialicon">
+                <TfiBlackboard
+                  color="navy"
+                  fill="navy"
+                  size="50"
+                ></TfiBlackboard>
+              </div>
+              <p className="specialcontentheading">Offline Classes</p>
+              <p className="specialcontent">
+                Experience the power of in-person learning with our exclusive
+                offline batch. Join us for hands-on education and personalized
+                guidance to unlock your full potential in the subject
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>

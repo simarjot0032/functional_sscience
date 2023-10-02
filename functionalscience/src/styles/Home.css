@@ -5,8 +5,8 @@
   }
   
   .parent{
-  background-color:#e6f4ff;;
-color: black;
+    background-color:#e6f4ff;;
+    color: black;
   }
   
 .container{
@@ -62,6 +62,47 @@ hr{
 .link{
     text-decoration:none;
 }
+.specialization{
+    padding: 2rem;
+}
+.heading-specialization{
+    color: orange;
+    font-size: 1.5rem
+}
+.hr-specialization{
+    width: 70%;
+    margin: 0;
+    margin-top: 0.5rem
+}
+
+.rowspecial{
+    padding-top:1rem ;
+    display: flex;
+    
+
+}
+.cards{
+    width: 100%;
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    height: 250px;
+    border-radius: 12px;
+   padding: 1rem;
+    background-color: #acd5f7;
+}
+
+
+.specialcontentheading{
+    color:orange;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.specialcontent{
+    color: navy;
+}
+
 @media screen and (min-width:768px) and (max-width:1023px) {
     hr{
         display: none;
@@ -112,13 +153,13 @@ hr{
         justify-content: center;
     }
     
-.home-img{
-width: 35rem;
-height: 35rem
-}
-.home-container-heading{
+    .home-img{
+    width: 35rem;
+    height: 35rem
+    }
+    .home-container-heading{
     font-size: 4rem;
-}
+    }
     .content{
         display: flex;
         flex-direction: column;
@@ -154,13 +195,13 @@ height: 35rem
         justify-content: center;
     }
     
-.home-img{
-width:35rem;
-height: 35rem;
-}
-.home-container-heading{
+    .home-img{
+    width:35rem;
+    height: 35rem;
+    }
+    .home-container-heading{
     font-size: 4rem;
-}
+    }
     .content{
         display: flex;
         flex-direction: column;
@@ -178,6 +219,8 @@ height: 35rem;
         margin-left:65% ;
     
     }
+   
+    
 }
 @media screen  and (min-width:1500px){
     hr{
@@ -195,13 +238,13 @@ height: 35rem;
         justify-content: center;
     }
     
-.home-img{
-width: 35rem;
-height: 35rem;
-}
-.home-container-heading{
+    .home-img{
+    width: 35rem;
+    height: 35rem;
+    }
+    .home-container-heading{
     font-size: 4rem;
-}
+    }
     .content{
         display: flex;
         flex-direction: column;

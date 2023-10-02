@@ -1,9 +1,7 @@
     .menubar-navlink{
         background-color:#e6f4ff;
-        box-shadow: 5px 2px 5px 2px rgb(197, 197, 197);
         display: flex;
         gap: 1.5rem;
-        justify-content: center;
         padding: 1.2rem;
         display: none;
     }
@@ -26,6 +24,9 @@
     @media screen and (min-width:1024px) {
         .menubar-navlink{
             display: flex;
+           position: sticky;
+           padding: 1.5rem;
+           top: 0;
         }
         .nav-link:hover::before{
             content: "\f068";
