@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
 import { useState } from "react";
+
 function Navbar() {
   const [visiblity, setvisiblity] = useState("close");
   const onclicked: any = () => {
