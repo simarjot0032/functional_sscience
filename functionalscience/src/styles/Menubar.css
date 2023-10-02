@@ -19,7 +19,7 @@
     .link{
         text-decoration:none;
     }
-  
+  /* all screen above the 1024px */
 
     @media screen and (min-width:1024px) {
         .menubar-navlink{

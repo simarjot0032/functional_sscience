@@ -63,25 +63,32 @@ hr{
     text-decoration:none;
 }
 .specialization{
-    padding: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .heading-specialization{
     color: orange;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    margin-left:1.5rem ;
 }
 .hr-specialization{
     width: 70%;
     margin: 0;
-    margin-top: 0.5rem
+    margin-top: 0.5rem;
+    margin-left:1.5rem ;
 }
 
 .rowspecial{
     padding-top:1rem ;
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
     
 
 }
-.cards{
+.card{
     width: 100%;
     max-width: 315px;
     display: flex;
@@ -90,7 +97,7 @@ hr{
     height: 250px;
     border-radius: 12px;
    padding: 1rem;
-    background-color: #acd5f7;
+    background-color: #bcdefa;
 }
 
 
@@ -101,6 +108,13 @@ hr{
 }
 .specialcontent{
     color: navy;
+}
+.icons{
+    color: navy;
+    fill: navy;
+}
+.icons path{
+    stroke: navy;
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
