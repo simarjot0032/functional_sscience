@@ -97,12 +97,14 @@ hr{
     height: 250px;
     border-radius: 12px;
    padding: 1rem;
-    background-color: #bcdefa;
+    background-color: #81d9f4;
+    /* border-radius: 26% 74% 33% 67% / 57% 32% 68% 43%  ; */
+/* background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(207, 86%, 86%, 1) 54%, hsla(207, 86%, 86%, 1) 100%); */
 }
 
 
 .specialcontentheading{
-    color:orange;
+    color:#ff8a05;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -149,6 +151,26 @@ hr{
 
     width: 100%;
     }
+    .hr-specialization{
+        display: block;
+        width: 28%;
+    }
+    .specialization{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .rowspecial{
+        
+            display: flex;
+            flex-direction: row;
+        
+    }
+    .card{
+        padding: 0.8rem;
+        height: 350px;
+        width: 100%;
+    }
     
 }
 @media screen  and (min-width:1024px) and (max-width:1300px){
@@ -192,6 +214,30 @@ hr{
         margin-left:65% ;
     
     }
+    .heading-specialization{
+        font-size: 2rem;
+    }
+    .hr-specialization{
+        display: block;
+        width: 35%;
+        max-width: 350px;
+    }
+    .specialization{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .rowspecial{
+        
+            display: flex;
+            flex-direction: row;
+        
+    }
+    .card{
+        padding: 1rem;
+        height: 350px;
+        width: 100%;
+    }
 }
 @media screen  and (min-width:1300px) and (max-width:1500px){
     hr{
@@ -233,6 +279,36 @@ hr{
         margin-left:65% ;
     
     }
+    .heading-specialization{
+        font-size: 2rem;
+        margin-left:5rem ;
+
+    }
+
+    .hr-specialization{
+        display: block;
+        width: 30%;
+        margin-left:5rem ;
+
+    }
+    .specialization{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+    .rowspecial{
+        
+            display: flex;
+            flex-direction: row;
+            gap:2rem;
+        
+    }
+    .card{
+        padding: 1rem;
+        height: 350px;
+        width: 100%;
+    }
    
     
 }
@@ -267,7 +343,7 @@ hr{
     }
     .home-container-description-para{
         margin-top:2.8rem ;
-  max-width: 500px;
+     max-width: 500px;
     font-size: 1.2rem;
     
     }
@@ -275,5 +351,32 @@ hr{
         margin:0 ;
         margin-left:80% ;
     
+    }
+    .heading-specialization{
+        font-size: 2.8rem;
+        margin-left:5rem ;
+
+    }
+    .hr-specialization{
+        display: block;
+        width: 32%;
+        margin-left:5rem ;
+        max-width: 500px;
+    }
+    .specialization{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .rowspecial{
+        
+            display: flex;
+            flex-direction: row;
+        
+    }
+    .card{
+        padding: 1rem;
+        height: 350px;
+        width: 100%;
     }
 }

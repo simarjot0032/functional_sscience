@@ -79,6 +79,8 @@ const Home = () => {
                 exam-style questions and solutions
               </p>
             </div>
+          </div>
+          <div className="rowspecial">
             <div className="card">
               <div className="specialicon">
                 <MdOutlineAssignment
