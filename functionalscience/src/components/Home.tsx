@@ -1,4 +1,6 @@
 import personreading from "../assets/p2-removebg-preview.png";
+import ncert from "../assets/books.png";
+import userimg from "../assets/user.png";
 import "../styles/Home.css";
 import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from "react-icons/bi";
 import { BsFillBookmarksFill, BsFillPatchQuestionFill } from "react-icons/bs";
@@ -6,6 +8,7 @@ import { TfiBlackboard } from "react-icons/tfi";
 import { GrNotes } from "react-icons/gr";
 import { SiTestcafe } from "react-icons/si";
 import { MdOutlineAssignment } from "react-icons/md";
+
 const Home = () => {
   return (
     <>
@@ -121,6 +124,69 @@ const Home = () => {
                 instant clarification and guidance on challenging concepts to
                 ensure a deeper understanding of the subject
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="studyheading heading-specialization">
+          Study Material
+        </div>
+        <hr className="hr-specialization" />
+        <div className="study">
+          <div className="study-card">
+            <div className="study-card-heading">NCERT Books</div>
+            <div className="study-card-heading">& Solutions</div>
+            <div className="img-study">
+              <img src={ncert} alt="" className="study-img" />
+            </div>
+          </div>
+        </div>
+
+        <div className="review-heading">Students Review</div>
+        <hr className="hr-specialization reviewhr" />
+        <div className="review-back">
+          <div className="review">
+            <div className="review-card">
+              <div className="profile">
+                <img src={userimg} alt="" className="userimg" />
+                <div className="rname">Sukhmanpreet Singh</div>
+              </div>
+              <div className="rating">⭐⭐⭐⭐(4/5)</div>
+              <div className="review-content">
+                Functional Science has been an absolute game-changer for me in
+                my 9th and 10th-grade studies. The platform offers a
+                comprehensive range of resources that cover all subjects, from
+                math and science to humanities.
+              </div>
+            </div>
+
+            <div className="review-card">
+              <div className="profile">
+                <img src={userimg} alt="" className="userimg" />
+                <div className="rname">Tejnoor Singh</div>
+              </div>
+              <div className="rating"> ⭐⭐⭐⭐⭐(5/5)</div>
+              <div className="review-content">
+                Functional Science has been my go-to resource for my 11th and
+                12th-grade studies. The website offers a wide variety of study
+                materials, including detailed notes, practice tests, and essay
+                writing guides, which have been incredibly helpful for my
+                academic growth
+              </div>
+            </div>
+
+            <div className="review-card">
+              <div className="profile">
+                <img src={userimg} alt="" className="userimg" />
+                <div className="rname">Simarjot Singh</div>
+              </div>
+              <div className="rating"> ⭐⭐⭐⭐⭐(5/5)</div>
+              <div className="review-content">
+                Functional Scienceis an exceptional educational website for 11th
+                and 12th-grade students. The platform offers top-notch video
+                lectures, comprehensive study materials, and a vast library of
+                practice tests and past exam papers.
+              </div>
             </div>
           </div>
         </div>
