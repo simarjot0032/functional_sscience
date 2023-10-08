@@ -1,6 +1,10 @@
 import personreading from "../assets/p2-removebg-preview.png";
 import ncert from "../assets/books.png";
+import samplepaper from "../assets/science.webp";
+import note from "../assets/download.jpeg";
 import userimg from "../assets/user.png";
+import assignments from "../assets/assignment.png";
+import solution from "../assets/ncert-solutions-class-9-math-chapter-2-polynomials-1.jpg";
 import "../styles/Home.css";
 import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from "react-icons/bi";
 import { BsFillBookmarksFill, BsFillPatchQuestionFill } from "react-icons/bs";
@@ -8,7 +12,7 @@ import { TfiBlackboard } from "react-icons/tfi";
 import { GrNotes } from "react-icons/gr";
 import { SiTestcafe } from "react-icons/si";
 import { MdOutlineAssignment } from "react-icons/md";
-
+import { Footer } from "./Footer";
 const Home = () => {
   return (
     <>
@@ -133,11 +137,39 @@ const Home = () => {
         </div>
         <hr className="hr-specialization" />
         <div className="study">
-          <div className="study-card">
+          <div className="study-card blue">
             <div className="study-card-heading">NCERT Books</div>
-            <div className="study-card-heading">& Solutions</div>
+
             <div className="img-study">
               <img src={ncert} alt="" className="study-img" />
+            </div>
+          </div>
+          <div className="study-card orange">
+            <div className="study-card-heading">Sample Papers</div>
+
+            <div className="img-study">
+              <img src={samplepaper} alt="" className="study-img sample" />
+            </div>
+          </div>
+          <div className="study-card blue">
+            <div className="study-card-heading">Notes</div>
+
+            <div className="img-study">
+              <img src={note} alt="" className="study-img" />
+            </div>
+          </div>
+          <div className="study-card orange">
+            <div className="study-card-heading">Assignments</div>
+
+            <div className="img-study">
+              <img src={assignments} alt="" className="study-img" />
+            </div>
+          </div>{" "}
+          <div className="study-card blue">
+            <div className="study-card-heading">NCERT Solution</div>
+
+            <div className="img-study">
+              <img src={solution} alt="" className="study-img" />
             </div>
           </div>
         </div>
@@ -191,6 +223,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };
