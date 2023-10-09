@@ -166,30 +166,68 @@ hr{
 }
 .study{
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 .study-card{
-    box-shadow: 0 0 5px 5px rgb(225, 224, 224);
+    box-shadow: 0 0 5px 5px rgb(236, 234, 234);
     padding: 1rem;
     border-radius: 10px;
-    background-color: rgb(249, 192, 85);
+    
+    width: 290px;
+    height: 330px;
+    padding-bottom: 0;
 }
 .study-card-heading{
     color: white;
     font-size: 2rem;
+    font-weight: 800;
     line-height: 2.5rem;
 
 }
 .img-study{
         display: flex;
+        margin: 0;
+        margin-top:2.5rem ;
         justify-content: center;
 }
 .study-img{
-    width: 80%;
-    height: 250px;
+    width: 220px;
+    height: 210px;
 
     border-radius: 50%;
 
 }
+.sample{
+    width: 200px;
+    
+    /* height: 150px; */
+}
+.orange{
+    background-color: rgb(249, 192, 85);
+}
+.blue{
+    background-color: rgb(30, 144, 255);
+
+}
+/* .pink{
+   
+    background-color: rgb(249, 192, 85);
+    
+    
+}
+.green{
+   
+    background-color: rgb(30, 144, 255);
+    
+}
+.blue{
+    background-color: rgb(249, 192, 85);
+
+
+} */
 @media screen and (min-width:768px) and (max-width:1023px) {
     hr{
         display: none;
@@ -253,6 +291,15 @@ hr{
         width: 290px;
     height: 290px;
     }
+    .study{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .study-card{
+        height: 320px;
+    }
+
    
 }
 @media screen  and (min-width:1024px) and (max-width:1300px){
@@ -340,7 +387,16 @@ hr{
         height: 290px;
         width: 290px;
     }
-   
+    .study{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .study-card{
+        height: 320px;
+    }
+
    
 }
 @media screen  and (min-width:1300px) and (max-width:1500px){
@@ -432,7 +488,16 @@ hr{
 
     }
    
-   
+    .study{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+      .study-card{
+        height: 320px;
+    }
+
     
 }
 @media screen  and (min-width:1500px){
@@ -526,4 +591,11 @@ hr{
 
     } 
     
+    .study{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .study-card{
+        height: 320px;
+    }
 }
