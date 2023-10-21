@@ -9,7 +9,7 @@
         color: rgba(0, 0, 0, 0.800);
         text-decoration: none;
         list-style-type:none ;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .nav-link:hover {
         transform: scale(1.1);
@@ -32,8 +32,9 @@
         .menubar-navlink{
             display: flex;
            position: sticky;
-           padding: 1.5rem;
+           padding: 1.7rem;
            top: 0;
+           z-index: 1;
         }
         .nav-link:hover::before{
             content: "\f068";
