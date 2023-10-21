@@ -97,10 +97,16 @@ hr{
     height: 250px;
     border-radius: 12px;
    padding: 1rem;
-    background-color: #95e4fc;
+    background-color: #95e4fc92;
+    /* outline: 2px solid #95e4fc; */
 }
 
-
+.card:hover{
+    background-color: #95e4fc;
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+    /* color: white; */
+}
 .specialcontentheading{
     color:#ff8a05;
     font-size: 1.5rem;

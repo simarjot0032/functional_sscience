@@ -14,9 +14,13 @@
 .footer-link{
     list-style-type: none;
     font-size: 1rem;
+    color: rgb(219, 219, 219);
     font-weight:200 ;
     line-height: 1.8rem;
     
+}
+.footer-link:hover{
+    color: white;
 }
 .footer-footer{
     text-align: center;
@@ -64,9 +68,13 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+.footer-footer{
+    color: rgb(178, 178, 178);
+}
 @media screen and (min-width:768px){
     .footer{
         padding-top:2rem ;
+
     }
     .footer-links{
         padding-top:0;
@@ -75,9 +83,12 @@
     }
     .footer{
         display: flex;
-        gap: 2.5rem;
+        gap: 5rem;
         align-items: center;
         justify-content: center;
     }
-   
+   .scoial-links{
+    display: flex;
+    gap: 0.5rem;
+   }
 }
