@@ -2,7 +2,7 @@ import { useState } from "react";
 import image1 from "../assets/imgforbooks.jpg";
 import image2 from "../assets/imgbooks2.jpg";
 import "../styles/Books.css";
-import Bookscard from "./Bookscard";
+import Cards from "./Webcard";
 import { Link } from "react-router-dom";
 import Classnine from "./Classnine";
 import Footer from "./Footer";
@@ -28,10 +28,10 @@ const Books = () => {
         {/* books */}
         <div className="book-section">
           <Link to="/Classnine" className="bookslinks">
-            <Bookscard name={"X"}></Bookscard>
+            <Cards name={"X"}></Cards>
           </Link>
           <Link to="/" className="bookslinks">
-            <Bookscard name={"XI"}></Bookscard>
+            <Cards name={"XI"}></Cards>
           </Link>
         </div>
       </div>
