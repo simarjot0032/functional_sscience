@@ -1,0 +1,55 @@
+.subjects{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    height: 91vh;
+}
+.linkstosub{
+    text-decoration: none;
+}
+.subcards{
+    display: flex;
+    gap: 1rem;
+}
+.subjectcard{
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0 0 5px 2px rgb(224, 224, 224);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 1.2rem;
+}
+.show,.subject{
+    color: black;
+}
+.showable{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.show{
+    
+    background-color: rgb(248, 176, 89);
+    border-radius: 55%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 800;
+}
+.subject{
+    
+    font-size: 2rem;
+}
+@media screen and (min-width:768px) {
+    .subjects{
+        flex-direction: row;
+        align-items: start;
+    }
+}

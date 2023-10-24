@@ -4,7 +4,7 @@ import image2 from "../assets/imgbooks2.jpg";
 import "../styles/Books.css";
 import Cards from "./Webcard";
 import { Link } from "react-router-dom";
-import Classnine from "./Classnine";
+
 import Footer from "./Footer";
 const Books = () => {
   let images = [image1, image2];
@@ -27,10 +27,10 @@ const Books = () => {
         <hr style={{ background: "grey" }} />
         {/* books */}
         <div className="book-section">
-          <Link to="/Classnine" className="bookslinks">
+          <Link to="/Classten" className="bookslinks">
             <Cards name={"X"}></Cards>
           </Link>
-          <Link to="/" className="bookslinks">
+          <Link to="/Classnine" className="bookslinks">
             <Cards name={"XI"}></Cards>
           </Link>
         </div>
