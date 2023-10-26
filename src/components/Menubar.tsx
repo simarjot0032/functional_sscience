@@ -1,6 +1,6 @@
+// temporarly component is discarded navbar component is main for navbar  in website
 import { Link } from "react-router-dom";
 import "../styles/Menubar.css";
-// temporarrly this flie hab been discardede
 function Menubar() {
   return (
     <>

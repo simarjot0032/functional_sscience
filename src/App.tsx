@@ -6,6 +6,7 @@ import Menubar from "./components/Menubar";
 import Books from "./components/Books";
 import Classten from "./components/Classten";
 import Classnine from "./components/Classnine";
+import Classtenbooksci from "./components/Classtenbooksci";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <Navbar></Navbar>
         <Menubar></Menubar>
         <Routes>
+          {/* routes setup for all routes */}
           <Route path="/" element={<Home></Home>}></Route>
 
           <Route path="/Home" element={<Home></Home>}></Route>
@@ -27,6 +29,10 @@ function App() {
           <Route path="/Classnine" element={<Classnine></Classnine>}></Route>
 
           <Route path="/Classten" element={<Classten></Classten>}></Route>
+          <Route
+            path="/Classtenbooksci"
+            element={<Classtenbooksci></Classtenbooksci>}
+          ></Route>
         </Routes>
       </BrowserRouter>
     </>
