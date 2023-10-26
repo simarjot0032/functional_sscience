@@ -1,3 +1,4 @@
+// main books components->card component i.e. webcard component for calling the class cards
 import { useState } from "react";
 import image1 from "../assets/imgforbooks.jpg";
 import image2 from "../assets/imgbooks2.jpg";

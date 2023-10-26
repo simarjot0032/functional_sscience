@@ -1,3 +1,4 @@
+// books -> class 10 component in which subject card is called
 import { useState } from "react";
 import "../styles/Subjects.css";
 import image1 from "../assets/imgforbooks.jpg";
@@ -5,6 +6,7 @@ import image2 from "../assets/imgbooks2.jpg";
 import Subjectcard from "./Subjectcard";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+// import Classtenbooksci from "./Classtenbooksci";
 export default function Classten() {
   let images = [image1, image2];
 
@@ -21,7 +23,7 @@ export default function Classten() {
   return (
     <>
       <div className="subjects" style={{ background: `url(${currentimage})` }}>
-        <Link to="/" className="linkstosub">
+        <Link to="/Classtenbooksci" className="linkstosub">
           <Subjectcard subname="Science" show_name="S"></Subjectcard>
         </Link>
         <Link to="/" className="linkstosub">

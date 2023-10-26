@@ -14,9 +14,9 @@ function Navbar() {
     setvisiblity("open");
     document.querySelector(".center")?.classList.toggle("open");
   };
-  const onclose: any = () => {
-    setvisiblity("close");
-  };
+  // const onclose: any = () => {
+  //   setvisiblity("close");
+  // };
   return (
     <>
       <div className="bignav">

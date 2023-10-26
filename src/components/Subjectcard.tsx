@@ -1,3 +1,4 @@
+// component for the subjectcard
 import "../styles/Subjects.css";
 
 import { PiFlaskBold } from "react-icons/pi";

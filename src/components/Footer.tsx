@@ -1,3 +1,4 @@
+// footer component
 import "../styles/Footer.css";
 import { PiBooksDuotone } from "react-icons/pi";
 import { Link } from "react-router-dom";

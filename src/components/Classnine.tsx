@@ -1,4 +1,5 @@
 //for books section
+// component for class nine-> subject card component
 import { useState } from "react";
 import "../styles/Subjects.css";
 import image1 from "../assets/imgforbooks.jpg";

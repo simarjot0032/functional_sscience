@@ -1,3 +1,4 @@
+// components for class card
 import "../styles/Books.css";
 interface Props {
   name: any;
