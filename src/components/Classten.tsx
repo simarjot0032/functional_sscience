@@ -26,7 +26,7 @@ export default function Classten() {
         <Link to="/Classtenbooksci" className="linkstosub">
           <Subjectcard subname="Science" show_name="S"></Subjectcard>
         </Link>
-        <Link to="/" className="linkstosub">
+        <Link to="/Classtenbookmaths" className="linkstosub">
           <Subjectcard subname="Maths" show_name="M"></Subjectcard>
         </Link>
       </div>

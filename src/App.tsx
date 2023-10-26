@@ -7,6 +7,7 @@ import Books from "./components/Books";
 import Classten from "./components/Classten";
 import Classnine from "./components/Classnine";
 import Classtenbooksci from "./components/Classtenbooksci";
+import Classtenbookmath from "./components/Classtenbookmath";
 function App() {
   return (
     <>
@@ -27,11 +28,14 @@ function App() {
 
           <Route path="/Assignments" element={<Home></Home>}></Route>
           <Route path="/Classnine" element={<Classnine></Classnine>}></Route>
-
           <Route path="/Classten" element={<Classten></Classten>}></Route>
           <Route
             path="/Classtenbooksci"
             element={<Classtenbooksci></Classtenbooksci>}
+          ></Route>
+          <Route
+            path="/Classtenbookmaths"
+            element={<Classtenbookmath></Classtenbookmath>}
           ></Route>
         </Routes>
       </BrowserRouter>
