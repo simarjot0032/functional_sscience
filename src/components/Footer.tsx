@@ -54,16 +54,22 @@ export const Footer = () => {
               <a
                 href="https://www.instagram.com/functional_science/"
                 className="social"
+                target="_blank"
               >
                 <AiOutlineInstagram className="social-icon"></AiOutlineInstagram>
               </a>
               <a
                 href="https://www.instagram.com/functional_science/"
                 className="social"
+                target="_blank"
               >
                 <AiOutlineYoutube className="social-icon"></AiOutlineYoutube>
               </a>
-              <a href="mailto:functionalscience3@gmail.com" className="social">
+              <a
+                href="mailto:functionalscience3@gmail.com"
+                className="social"
+                target="_blank"
+              >
                 <AiOutlineMail className="social-icon"></AiOutlineMail>
               </a>
             </div>

@@ -1,8 +1,82 @@
 import "../styles/Classtenbooks.css";
+import Indiviualbook from "./Indiviualbook";
+import Image from "../assets/assignment.png";
+import Footer from "./Footer";
+
 export default function Classtenbooks() {
   return (
     <>
-      <hr className="bookshr" />
+      <Indiviualbook
+        numberofchapter={1}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={2}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={3}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={4}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={5}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={6}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={7}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={8}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={9}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={10}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={11}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={12}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={13}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Indiviualbook
+        numberofchapter={14}
+        chaptername="Prelims"
+        linkitem={Image}
+      ></Indiviualbook>
+      <Footer></Footer>
     </>
   );
 }
