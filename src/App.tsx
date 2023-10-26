@@ -28,7 +28,6 @@ function App() {
 
           <Route path="/Assignments" element={<Home></Home>}></Route>
           <Route path="/Classnine" element={<Classnine></Classnine>}></Route>
-
           <Route path="/Classten" element={<Classten></Classten>}></Route>
           <Route
             path="/Classtenbooksci"
