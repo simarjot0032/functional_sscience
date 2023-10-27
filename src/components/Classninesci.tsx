@@ -1,7 +1,8 @@
-import Indiviualbook from "./Indiviualbook";
-import Image from "../assets/books-removebg-preview.png";
 import "../styles/Classbooks.css";
-export default function Classtenbookmath() {
+import Footer from "./Footer";
+import Indiviualbook from "./Indiviualbook";
+
+export default function Classninesci() {
   return (
     <>
       <Indiviualbook
@@ -11,74 +12,66 @@ export default function Classtenbookmath() {
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={2}
-        chaptername="1. Real Numbers"
+        chaptername="1. Matters In Our Surroundings"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={3}
-        chaptername="2. Polynomials"
+        chaptername="2. Is Matter Around Us Pure"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={4}
-        chaptername="3. Pair of Linear Equations In Two Variables"
+        chaptername="3. Atoms & Molecules"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={5}
-        chaptername="4. Quadratics Equations"
+        chaptername="4. Structure Of The Atom"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={6}
-        chaptername="5. Arthmetic Progession"
+        chaptername="5. The Fundamentals Unit Of Life"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={7}
-        chaptername="6. Traingles"
+        chaptername="6. Tissues"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={8}
-        chaptername="7. Coordinate Geomerty"
+        chaptername="7. Motion"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={9}
-        chaptername="8. Introduction To Trignometry"
+        chaptername="8. Forcw And Laws Of Motion"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={10}
-        chaptername="9. Some Applications of Trignomentry"
+        chaptername="9. Gravitaion"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={11}
-        chaptername="10. Cricles"
+        chaptername="10. Work & Energy"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={12}
-        chaptername="11. Area Related to Circles"
+        chaptername="11. Sounds"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={13}
-        chaptername="12. Surface Areas and Volumes"
+        chaptername="12. Improvements In Food Resources"
         linkitem={Image}
       ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={14}
-        chaptername="13. Stactics"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={13}
-        chaptername="14. Probablity"
-        linkitem={Image}
-      ></Indiviualbook>
+
+      <Footer></Footer>
     </>
   );
 }

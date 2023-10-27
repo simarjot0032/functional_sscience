@@ -1,5 +1,5 @@
 .subjects{
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     flex-direction: column;
     gap: 2rem;

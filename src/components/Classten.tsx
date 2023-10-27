@@ -22,13 +22,16 @@ export default function Classten() {
   }, 15000);
   return (
     <>
-      <div className="subjects" style={{ background: `url(${currentimage})` }}>
-        <Link to="/Classtenbooksci" className="linkstosub">
-          <Subjectcard subname="Science" show_name="S"></Subjectcard>
-        </Link>
-        <Link to="/Classtenbookmaths" className="linkstosub">
-          <Subjectcard subname="Maths" show_name="M"></Subjectcard>
-        </Link>
+      <div style={{ background: `url(${currentimage})`, padding: "1rem" }}>
+        <h1 className="nameofclass">Class 10</h1>
+        <div className="subjects">
+          <Link to="/Classtenbooksci" className="linkstosub">
+            <Subjectcard subname="Science" show_name="S"></Subjectcard>
+          </Link>
+          <Link to="/Classtenbookmaths" className="linkstosub">
+            <Subjectcard subname="Maths" show_name="M"></Subjectcard>
+          </Link>
+        </div>
       </div>
       <Footer></Footer>
     </>

@@ -6,7 +6,7 @@ body::-webkit-scrollbar{
 }
 body::-webkit-scrollbar-thumb{
   width: 10px;
-  background-color: rgb(255, 205, 112);
+  background-color: rgba(190, 190, 190, 0.869);
   border-radius: 8px;
 }
 

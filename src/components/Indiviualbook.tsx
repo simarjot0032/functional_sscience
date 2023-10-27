@@ -1,5 +1,5 @@
 // component for each books
-import "../styles/Classtenbooks.css";
+import "../styles/Classbooks.css";
 interface Props {
   linkitem: any;
   numberofchapter: number;

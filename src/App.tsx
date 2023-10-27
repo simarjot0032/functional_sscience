@@ -8,6 +8,10 @@ import Classten from "./components/Classten";
 import Classnine from "./components/Classnine";
 import Classtenbooksci from "./components/Classtenbooksci";
 import Classtenbookmath from "./components/Classtenbookmath";
+import Classninesci from "./components/Classninesci";
+import Classninemath from "./components/Classninemaths";
+import Notes from "./components/Notes";
+
 function App() {
   return (
     <>
@@ -22,7 +26,7 @@ function App() {
 
           <Route path="/Books" element={<Books></Books>}></Route>
 
-          <Route path="/Notes" element={<Home></Home>}></Route>
+          <Route path="/Notes" element={<Notes></Notes>}></Route>
 
           <Route path="/Samplepapers" element={<Home></Home>}></Route>
 
@@ -36,6 +40,14 @@ function App() {
           <Route
             path="/Classtenbookmaths"
             element={<Classtenbookmath></Classtenbookmath>}
+          ></Route>
+          <Route
+            path="/Classninesci"
+            element={<Classninesci></Classninesci>}
+          ></Route>
+          <Route
+            path="/Classninemaths"
+            element={<Classninemath></Classninemath>}
           ></Route>
         </Routes>
       </BrowserRouter>
