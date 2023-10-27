@@ -303,7 +303,7 @@ hr{
         flex-wrap: wrap;
     }
     .study-card{
-        height: 320px;
+        height: 350px;
     }
 
    
@@ -400,7 +400,7 @@ hr{
 
     }
     .study-card{
-        height: 320px;
+        height: 350px;
     }
 
    
@@ -501,7 +501,7 @@ hr{
 
     }
       .study-card{
-        height: 320px;
+        height: 350px;
     }
 
     
@@ -602,6 +602,6 @@ hr{
         justify-content: center;
     }
     .study-card{
-        height: 320px;
+        height: 350px;
     }
 }

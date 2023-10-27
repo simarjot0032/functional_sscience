@@ -1,7 +1,8 @@
-import Indiviualbook from "./Indiviualbook";
-import Image from "../assets/books-removebg-preview.png";
 import "../styles/Classbooks.css";
-export default function Classtenbookmath() {
+import Footer from "./Footer";
+import Indiviualbook from "./Indiviualbook";
+
+export default function Classninesci() {
   return (
     <>
       <Indiviualbook
@@ -11,7 +12,7 @@ export default function Classtenbookmath() {
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={2}
-        chaptername="1. Real Numbers"
+        chaptername="1. Number System"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
@@ -21,64 +22,56 @@ export default function Classtenbookmath() {
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={4}
-        chaptername="3. Pair of Linear Equations In Two Variables"
+        chaptername="3. Coordinate Geometry"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={5}
-        chaptername="4. Quadratics Equations"
+        chaptername="4. Linear Equations In Two Variables"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={6}
-        chaptername="5. Arthmetic Progession"
+        chaptername="5. Introduction To Euclid's Geometry"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={7}
-        chaptername="6. Traingles"
+        chaptername="6. Lines & Angles"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={8}
-        chaptername="7. Coordinate Geomerty"
+        chaptername="7. Triangles"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={9}
-        chaptername="8. Introduction To Trignometry"
+        chaptername="8. Quadrilaterals"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={10}
-        chaptername="9. Some Applications of Trignomentry"
+        chaptername="9. Circles"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={11}
-        chaptername="10. Cricles"
+        chaptername="10. Heron's Formula"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={12}
-        chaptername="11. Area Related to Circles"
+        chaptername="11. Surface Areas & Volumes"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={13}
-        chaptername="12. Surface Areas and Volumes"
+        chaptername="12. Statics"
         linkitem={Image}
       ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={14}
-        chaptername="13. Stactics"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={13}
-        chaptername="14. Probablity"
-        linkitem={Image}
-      ></Indiviualbook>
+
+      <Footer></Footer>
     </>
   );
 }

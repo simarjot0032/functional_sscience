@@ -1,4 +1,4 @@
-import "../styles/Classtenbooks.css";
+import "../styles/Classbooks.css";
 import Indiviualbook from "./Indiviualbook";
 import Image from "../assets/assignment.png";
 import Footer from "./Footer";
@@ -13,67 +13,67 @@ export default function Classtenbooks() {
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={2}
-        chaptername="Prelims"
+        chaptername="1. Chemical Reactions and Equations"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={3}
-        chaptername="Prelims"
+        chaptername="2. Acids,Bases and Salts"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={4}
-        chaptername="Prelims"
+        chaptername="3. Metals and Non-Metals"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={5}
-        chaptername="Prelims"
+        chaptername="4. Carbon & its Compunds"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={6}
-        chaptername="Prelims"
+        chaptername="5. Lifeproccess"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={7}
-        chaptername="Prelims"
+        chaptername="6. Control and Cordination"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={8}
-        chaptername="Prelims"
+        chaptername="7. How do Oransims Reproduce"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={9}
-        chaptername="Prelims"
+        chaptername="8. Heridity"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={10}
-        chaptername="Prelims"
+        chaptername="9. Light-Reflection & Refraction "
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={11}
-        chaptername="Prelims"
+        chaptername="10. The Human Eye & the Colorful World"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={12}
-        chaptername="Prelims"
+        chaptername="11. Electricity"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={13}
-        chaptername="Prelims"
+        chaptername="12. Magnetic Effects of Electic Current"
         linkitem={Image}
       ></Indiviualbook>
       <Indiviualbook
         numberofchapter={14}
-        chaptername="Prelims"
+        chaptername="13. Our Enviroment"
         linkitem={Image}
       ></Indiviualbook>
       <Footer></Footer>
