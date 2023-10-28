@@ -11,6 +11,8 @@ import Classtenbookmath from "./components/Classtenbookmath";
 import Classninesci from "./components/Classninesci";
 import Classninemath from "./components/Classninemaths";
 import Notes from "./components/Notes";
+import Classtennotes from "./components/Classtennotes";
+import Classninenotes from "./components/Classninenotes";
 
 function App() {
   return (
@@ -48,6 +50,14 @@ function App() {
           <Route
             path="/Classninemaths"
             element={<Classninemath></Classninemath>}
+          ></Route>
+          <Route
+            path="/Classtennotes"
+            element={<Classtennotes></Classtennotes>}
+          ></Route>
+          <Route
+            path="/Classninenotes"
+            element={<Classninenotes></Classninenotes>}
           ></Route>
         </Routes>
       </BrowserRouter>

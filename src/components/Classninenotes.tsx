@@ -1,14 +1,11 @@
-// books -> class 10 component in which subject card is called
+import Subjectcard from "./Subjectcard";
 import { useState } from "react";
 import "../styles/Subjects.css";
 import "../styles/Notes.css";
 import image1 from "../assets/imgforbooks.jpg";
 import image2 from "../assets/imgbooks2.jpg";
-import Cards from "./Webcard";
-import Footer from "./Footer";
-import { Link } from "react-router-dom";
-// import Classtenbooksci from "./Classtenbooksci";
-export default function Notes() {
+
+export default function Classninenotes() {
   let images = [image1, image2];
 
   const [index, setindex] = useState(0);
@@ -24,19 +21,12 @@ export default function Notes() {
   return (
     <>
       <div className="notes" style={{ background: `url(${currentimage})` }}>
-        <h1 className="notes-heading">Notes</h1>
-        <hr style={{ background: "grey" }} />
-        {/* books */}
+        <h1 className="nameofclass">Class 9</h1>
         <div className="notes-section">
-          <Link to="/Classtennotes" className="noteslinks">
-            <Cards name={"X"}></Cards>
-          </Link>
-          <Link to="/Classninenotes" className="noteslinks">
-            <Cards name={"XI"}></Cards>
-          </Link>
+          <Subjectcard subname="Science" show_name="S"></Subjectcard>
+          <Subjectcard subname="Maths" show_name="M"></Subjectcard>
         </div>
       </div>
-      <Footer></Footer>
     </>
   );
 }
