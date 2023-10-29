@@ -32,7 +32,7 @@ const Books = () => {
             <Cards name={"X"}></Cards>
           </Link>
           <Link to="/Classnine" className="bookslinks">
-            <Cards name={"XI"}></Cards>
+            <Cards name={"IX"}></Cards>
           </Link>
         </div>
       </div>

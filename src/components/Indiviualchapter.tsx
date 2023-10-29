@@ -1,5 +1,6 @@
 // component for each books
 import "../styles/Classbooks.css";
+import { AiOutlineDownload } from "react-icons/ai";
 interface Props {
   linkitem: any;
   numberofchapter: number;
@@ -25,7 +26,15 @@ export default function Indiviualbook({
                 <button className="btnbook">View Online</button>
               </a>
               <a href={linkitem} className="linktobook" download={linkitem}>
-                <button className="btnbook">Download</button>
+                <button className="btnbook">
+                  <AiOutlineDownload
+                    color="green"
+                    fill="green"
+                    size="20"
+                    className="downloadbtn"
+                  ></AiOutlineDownload>
+                  Download
+                </button>
               </a>
             </div>
           </div>

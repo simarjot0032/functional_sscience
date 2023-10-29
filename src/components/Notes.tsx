@@ -32,7 +32,7 @@ export default function Notes() {
             <Cards name={"X"}></Cards>
           </Link>
           <Link to="/Classninenotes" className="noteslinks">
-            <Cards name={"XI"}></Cards>
+            <Cards name={"IX"}></Cards>
           </Link>
         </div>
       </div>

@@ -32,7 +32,7 @@ const Samplepapers = () => {
             <Cards name={"X"}></Cards>
           </Link>
           <Link to="/Samplepapernine" className="sampleplinks">
-            <Cards name={"XI"}></Cards>
+            <Cards name={"IX"}></Cards>
           </Link>
         </div>
       </div>
