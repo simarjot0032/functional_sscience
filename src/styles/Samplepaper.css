@@ -1,0 +1,68 @@
+.samplep{
+    height: 92.5vh;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.samplep{
+    padding: 1rem;
+}
+.samplep-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.books-cards{
+    background-color: rgb(248, 248, 248);
+    width: 220px;
+    padding: 1.5rem;
+    height: 250px;
+    border-radius: 20px;
+}
+.cards-heading,.cards-class{
+color: black;
+}
+.cards-heading{
+    font-size: 2rem;
+    margin-bottom:2.8rem ;
+text-decoration: none;
+
+}
+.cards-class{
+    font-size: 2.5rem;
+text-decoration: none;
+
+
+}
+.card-classes{
+    background-color: palegoldenrod;
+    width: fit-content;
+   padding: 1rem 1.5rem;
+   margin: auto auto;
+   border-radius: 150%;
+    display: flex;
+    justify-content: center;
+}
+.sampleplinks{
+    text-decoration: none;
+}
+@media screen and (min-width:768px) {
+    .samplep{
+        padding: 2rem;
+    }
+    .samplep-section{
+        margin-top:1rem ;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:1024px) {
+    .samplep{
+        padding: 2.8rem;
+    }
+}
+@media screen and (min-width:1300px) {
+    .samplep{
+        padding: 5rem;
+    }
+}

@@ -1,12 +1,14 @@
-import Subjectcard from "./Subjectcard";
+//for books section
+// component for class nine-> subject card component
 import { useState } from "react";
 import "../styles/Subjects.css";
-import "../styles/Notes.css";
 import image1 from "../assets/imgforbooks.jpg";
 import image2 from "../assets/imgbooks2.jpg";
+import Subjectcard from "./Subjectcard";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
-export default function Classtennotes() {
+export default function Classten() {
   let images = [image1, image2];
 
   const [index, setindex] = useState(0);
@@ -21,17 +23,18 @@ export default function Classtennotes() {
   }, 15000);
   return (
     <>
-      <div className="notes" style={{ background: `url(${currentimage})` }}>
-        <h1 className="nameofclass">Class 10</h1>
-        <div className="notes-section">
-          <Link to="/Notestensci" className="noteslinks">
+      <div style={{ background: `url(${currentimage})`, padding: "1rem" }}>
+        <h1 className="nameofclass">Class 9</h1>
+        <div className="subjects">
+          <Link to="/Samplepninesci" className="linkstosub">
             <Subjectcard subname="Science" show_name="S"></Subjectcard>
           </Link>
-          <Link to="/Notestenmaths" className="noteslinks">
+          <Link to="/Samplepninemaths" className="linkstosub">
             <Subjectcard subname="Maths" show_name="M"></Subjectcard>
           </Link>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 }

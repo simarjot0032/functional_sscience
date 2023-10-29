@@ -1,8 +1,8 @@
 import "../styles/Classbooks.css";
 import Footer from "./Footer";
-import Indiviualbook from "./Indiviualbook";
+import Indiviualbook from "./Indiviualchapter";
 
-export default function Classninesci() {
+export default function Samplepninemaths() {
   return (
     <>
       <Indiviualbook
