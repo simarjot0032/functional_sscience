@@ -26,10 +26,10 @@ export default function Classten() {
       <div style={{ background: `url(${currentimage})`, padding: "1rem" }}>
         <h1 className="nameofclass">Class 9</h1>
         <div className="subjects">
-          <Link to="/Classninesci" className="linkstosub">
+          <Link to="/Classninescibook" className="linkstosub">
             <Subjectcard subname="Science" show_name="S"></Subjectcard>
           </Link>
-          <Link to="/Classninemaths" className="linkstosub">
+          <Link to="/Classninemathsbook" className="linkstosub">
             <Subjectcard subname="Maths" show_name="M"></Subjectcard>
           </Link>
         </div>

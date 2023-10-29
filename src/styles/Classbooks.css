@@ -43,15 +43,25 @@
     padding: 0.8rem 1rem;
     border-radius: 20px;
     border: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     font-size: 1rem;
     border: 1px solid green;
     background-color: transparent;
 
 }
-.btnbook:hover{
+
+.btnbook:hover {
     background-color: green;
     color: white;
     transition: all 0.2s linear;
+}
+.btnbook:hover .downloadbtn{
+    color: white;
+    fill: white;
+    transition: all 0.2s linear;
+
 }
 .rightsidelist{
     display: flex;

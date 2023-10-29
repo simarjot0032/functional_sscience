@@ -16,6 +16,14 @@ import Classninenotes from "./components/Classninenotes";
 import Samplepapers from "./components/Samplepaper";
 import Samplepaperten from "./components/Samplepaperten";
 import Samplepapernine from "./components/Samplepapernine";
+import Notestensci from "./components/Notestensci";
+import Notestenmaths from "./components/Notestenmaths";
+import Notesninesci from "./components/Notesninesci";
+import Notesninemaths from "./components/Notesninemaths";
+import Samplepninesci from "./components/Samplepninesci";
+import Samplepninemaths from "./components/Samplepninemaths";
+import Sampleptenmaths from "./components/Sampleptenmaths";
+import Sampleptensci from "./components/Sampleptensci";
 
 function App() {
   return (
@@ -39,6 +47,7 @@ function App() {
           ></Route>
 
           <Route path="/Assignments" element={<Home></Home>}></Route>
+
           <Route path="/Classnine" element={<Classnine></Classnine>}></Route>
           <Route
             path="/Classten"
@@ -53,11 +62,11 @@ function App() {
             element={<Classtenbookmath></Classtenbookmath>}
           ></Route>
           <Route
-            path="/Classninesci"
+            path="/Classninescibook"
             element={<Classninescibook></Classninescibook>}
           ></Route>
           <Route
-            path="/Classninemaths"
+            path="/Classninemathsbook"
             element={<Classninemathbook></Classninemathbook>}
           ></Route>
           <Route
@@ -69,12 +78,44 @@ function App() {
             element={<Classninenotes></Classninenotes>}
           ></Route>
           <Route
+            path="/Notestensci"
+            element={<Notestensci></Notestensci>}
+          ></Route>
+          <Route
+            path="/Notestenmaths"
+            element={<Notestenmaths></Notestenmaths>}
+          ></Route>
+          <Route
+            path="/Notesninesci"
+            element={<Notesninesci></Notesninesci>}
+          ></Route>
+          <Route
+            path="/Notesninemaths"
+            element={<Notesninemaths></Notesninemaths>}
+          ></Route>
+          <Route
             path="/Samplepaperten"
             element={<Samplepaperten></Samplepaperten>}
           ></Route>
           <Route
             path="/Samplepapernine"
             element={<Samplepapernine></Samplepapernine>}
+          ></Route>
+          <Route
+            path="/Sampleptensci"
+            element={<Sampleptensci></Sampleptensci>}
+          ></Route>
+          <Route
+            path="/Sampleptenmaths"
+            element={<Sampleptenmaths></Sampleptenmaths>}
+          ></Route>
+          <Route
+            path="/Samplepninesci"
+            element={<Samplepninesci></Samplepninesci>}
+          ></Route>
+          <Route
+            path="/Samplepninemaths"
+            element={<Samplepninemaths></Samplepninemaths>}
           ></Route>
         </Routes>
       </BrowserRouter>
