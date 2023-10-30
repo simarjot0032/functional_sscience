@@ -8,7 +8,7 @@ import Subjectcard from "./Subjectcard";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 
-export default function Classten() {
+export default function Classninebooks() {
   let images = [image1, image2];
 
   const [index, setindex] = useState(0);

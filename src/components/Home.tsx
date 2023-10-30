@@ -13,6 +13,7 @@ import { GrNotes } from "react-icons/gr";
 import { SiTestcafe } from "react-icons/si";
 import { MdOutlineAssignment } from "react-icons/md";
 import { Footer } from "./Footer";
+import Contactform from "./Contactform";
 const Home = () => {
   return (
     <>
@@ -221,6 +222,9 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="forms">
+          <Contactform></Contactform>
         </div>
       </div>
       <Footer></Footer>

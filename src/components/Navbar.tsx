@@ -22,7 +22,7 @@ function Navbar() {
       <div className="bignav">
         <div className="navbar">
           <div className="left">
-            <PiBooksDuotone size="45"></PiBooksDuotone>
+            <PiBooksDuotone size="55"></PiBooksDuotone>
             <h1 className="name">Functional Science</h1>
           </div>
           <div className="right">
