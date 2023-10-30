@@ -39,12 +39,26 @@
 #feedback{
     resize:vertical ;
 }
+.btndisable{
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    color: dodgerblue;
+    /* color: black; */
+    font-weight: 600;
+    border: 0;
+    border: 1px solid dodgerblue;
+    background-color: transparent;
+    max-width: 320px;
+    font-size: 1.5rem;
+    cursor: not-allowed;
+}
 .btnsub{
     padding: 0.8rem 1.5rem;
     border-radius: 10px;
     color: dodgerblue;
     /* color: black; */
     font-weight: 600;
+    cursor: pointer;
     border: 0;
     border: 1px solid dodgerblue;
     background-color: transparent;
@@ -55,6 +69,9 @@ max-width: 320px;
     background-color: dodgerblue;
     color: white;
     transition: all 0.2s linear;
+}
+.disable{
+    cursor: text;
 }
 @media screen and (min-width:768px) {
     #name,#class,#number,#feedback,.headingdiv{

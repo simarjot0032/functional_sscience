@@ -1,5 +1,7 @@
+import { useState } from "react";
 import "../styles/Form.css";
 export default function Contactform() {
+  //   const [currentdisablelogo, setenablelogo] = useState("disable");
   return (
     <>
       <div
@@ -75,7 +77,7 @@ export default function Contactform() {
             placeholder="Entery your feedbak or Query"
           ></textarea>
           <br></br>
-          <button type="submit" className="btnsub">
+          <button type="submit" disabled className={" btndisable btnsub"}>
             Submit
           </button>
         </form>
