@@ -1,0 +1,82 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    /* padding: 2rem; */
+    padding-top:2rem ;
+    border-radius: 20px;
+    
+    /* background-color: beige; */
+    
+}
+.lable{
+    color: rgb(29, 29, 29);
+    font-size: 1.8rem;
+}
+.contact-heading{
+    background-color: rgb(197, 197, 197);
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+#name,#class,#number,#feedback{
+    padding: 0.8rem;
+    border-radius: 5px;
+    border:1px solid dodgerblue ;
+    outline: 0;
+    color: black;
+    margin-top:0.2rem ;
+    font-size: 1rem;
+    
+}
+#name:focus,#class:focus,#number:focus,#feedback:focus{
+    border: 2px solid dodgerblue;
+}
+
+#name,#class,#number,#feedback,.headingdiv{
+    width:100%;
+    max-width: 500px;
+}
+#feedback{
+    resize:vertical ;
+}
+.btndisable{
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    color: dodgerblue;
+    /* color: black; */
+    font-weight: 600;
+    border: 0;
+    border: 1px solid dodgerblue;
+    background-color: transparent;
+    max-width: 320px;
+    font-size: 1.5rem;
+    cursor: not-allowed;
+}
+.btnsub{
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    color: dodgerblue;
+    /* color: black; */
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    border: 1px solid dodgerblue;
+    background-color: transparent;
+max-width: 320px;
+    font-size: 1.5rem;
+}
+.btnsub:hover{
+    background-color: dodgerblue;
+    color: white;
+    transition: all 0.2s linear;
+}
+.disable{
+    cursor: text;
+}
+@media screen and (min-width:768px) {
+    #name,#class,#number,#feedback,.headingdiv{
+        width: 600px;
+        max-width: 600px;
+    }
+    
+}

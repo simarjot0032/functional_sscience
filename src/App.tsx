@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Menubar from "./components/Menubar";
 import Books from "./components/Books";
 import Classtenbooks from "./components/Classtenbooks";
-import Classnine from "./components/Classninebooks";
+// import Classninebooks from "./components/Classninebooks";
 import Classtenbooksci from "./components/Classtenbooksci";
 import Classtenbookmath from "./components/Classtenbookmath";
 import Classninescibook from "./components/Classninescibook";
@@ -24,6 +24,14 @@ import Samplepninesci from "./components/Samplepninesci";
 import Samplepninemaths from "./components/Samplepninemaths";
 import Sampleptenmaths from "./components/Sampleptenmaths";
 import Sampleptensci from "./components/Sampleptensci";
+import Assignment from "./components/Assignment";
+import Classninebooks from "./components/Classninebooks";
+import Assignmentten from "./components/Assignmentten";
+import Assignmentnine from "./components/Assignmentnine";
+import Assignmenttensci from "./components/Assignmenttensci";
+import Assignmenttenmaths from "./components/Assignmenttenmaths";
+import Assignmentninesci from "./components/Assignmentninesci";
+import Assignmentninemaths from "./components/Assignmentninemaths";
 
 function App() {
   return (
@@ -46,11 +54,17 @@ function App() {
             element={<Samplepapers></Samplepapers>}
           ></Route>
 
-          <Route path="/Assignments" element={<Home></Home>}></Route>
-
-          <Route path="/Classnine" element={<Classnine></Classnine>}></Route>
           <Route
-            path="/Classten"
+            path="/Assignments"
+            element={<Assignment></Assignment>}
+          ></Route>
+
+          <Route
+            path="/Classninebooks"
+            element={<Classninebooks></Classninebooks>}
+          ></Route>
+          <Route
+            path="/Classtenbooks"
             element={<Classtenbooks></Classtenbooks>}
           ></Route>
           <Route
@@ -116,6 +130,30 @@ function App() {
           <Route
             path="/Samplepninemaths"
             element={<Samplepninemaths></Samplepninemaths>}
+          ></Route>
+          <Route
+            path="/Assignmentten"
+            element={<Assignmentten></Assignmentten>}
+          ></Route>
+          <Route
+            path="/Assignmentnine"
+            element={<Assignmentnine></Assignmentnine>}
+          ></Route>
+          <Route
+            path="/Assignmenttensci"
+            element={<Assignmenttensci></Assignmenttensci>}
+          ></Route>
+          <Route
+            path="/Assignmenttenmaths"
+            element={<Assignmenttenmaths></Assignmenttenmaths>}
+          ></Route>
+          <Route
+            path="/Assignmentninesci"
+            element={<Assignmentninesci></Assignmentninesci>}
+          ></Route>
+          <Route
+            path="/Assignmentninemaths"
+            element={<Assignmentninemaths></Assignmentninemaths>}
           ></Route>
         </Routes>
       </BrowserRouter>

@@ -1,6 +1,7 @@
 import "../styles/Classbooks.css";
 import Footer from "./Footer";
 import Indiviualbook from "./Indiviualchapter";
+import Image from "../assets/books-removebg-preview.png";
 
 export default function Sampleptensci() {
   return (

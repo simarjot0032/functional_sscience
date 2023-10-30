@@ -28,10 +28,10 @@ const Books = () => {
         <hr style={{ background: "grey" }} />
         {/* books */}
         <div className="book-section">
-          <Link to="/Classten" className="bookslinks">
+          <Link to="/Classtenbooks" className="bookslinks">
             <Cards name={"X"}></Cards>
           </Link>
-          <Link to="/Classnine" className="bookslinks">
+          <Link to="/Classninebooks" className="bookslinks">
             <Cards name={"IX"}></Cards>
           </Link>
         </div>
