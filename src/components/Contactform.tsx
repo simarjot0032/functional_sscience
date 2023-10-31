@@ -1,5 +1,32 @@
 import { useState } from "react";
 import "../styles/Form.css";
+import { MdClass, MdDriveFileRenameOutline } from "react-icons/md";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { BiMessageDetail } from "react-icons/bi";
+import Supabase from "./Supabase";
+let name = document.querySelector("#name")?.innerHTML;
+let classs = document.querySelector("#class")?.innerHTML;
+let phonenumber = document.querySelector("#number")?.innerHTML;
+let query = document.querySelector("#feedback")?.innerHTML;
+let email = document.querySelector("#email")?.innerHTML;
+
+async function callfor() {
+  const { data } = await Supabase.from("Contactform")
+    .insert([
+      {
+        Name: name,
+        Email: email,
+        Class: classs,
+        Phonenumber: phonenumber,
+        Feedback: query,
+      },
+    ])
+    .select();
+  console.log(data);
+}
+callfor();
+
 export default function Contactform() {
   const [currentbtn, setbtn] = useState("btnsub");
 
@@ -14,8 +41,13 @@ export default function Contactform() {
         <div className="headingdiv">
           <h2 className="contact-heading">Contact Us!</h2>
         </div>
-        <form className="form">
+        <form className="form" method="post">
           <label htmlFor="name" className="lable">
+            <MdDriveFileRenameOutline
+              size="25"
+              color="dodgerblue"
+              fill="dodgerblue"
+            ></MdDriveFileRenameOutline>
             Name:
           </label>
           <input
@@ -28,6 +60,7 @@ export default function Contactform() {
 
           {/* elemaent 2 */}
           <label htmlFor="class" className="lable">
+            <MdClass size="25" color="dodgerblue" fill="dodgerblue"></MdClass>
             Class:
           </label>
           <input
@@ -40,6 +73,11 @@ export default function Contactform() {
 
           {/* elemnet 3 */}
           <label htmlFor="class" className="lable">
+            <AiOutlineMail
+              size="25"
+              color="dodgerblue"
+              fill="dodgerblue"
+            ></AiOutlineMail>
             Email:
           </label>
           <input
@@ -52,6 +90,11 @@ export default function Contactform() {
 
           {/* element4 */}
           <label htmlFor="number" className="lable">
+            <BsFillTelephoneFill
+              size="25"
+              color="dodgerblue"
+              fill="dodgerblue"
+            ></BsFillTelephoneFill>
             Phone Number:
           </label>
           <input
@@ -65,6 +108,11 @@ export default function Contactform() {
 
           {/* element 5 */}
           <label htmlFor="feedback" className="lable">
+            <BiMessageDetail
+              size="25"
+              color="dodgerblue"
+              fill="dodgerblue"
+            ></BiMessageDetail>
             Your Query:
           </label>
           <textarea
@@ -75,8 +123,8 @@ export default function Contactform() {
           <br></br>
           <button
             type="submit"
-            disabled
             className={" btndisable " + " " + `${currentbtn}`}
+            onClick={callfor}
           >
             Submit
           </button>
