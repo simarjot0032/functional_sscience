@@ -12,6 +12,7 @@ function Navbar() {
   const [visiblity, setvisiblity] = useState("close");
   const onclicked: any = () => {
     setvisiblity("open");
+    document.querySelector(".fa-bars")?.classList.toggle("fa-xmark");
     document.querySelector(".center")?.classList.toggle("open");
   };
   // const onclose: any = () => {
@@ -28,7 +29,11 @@ function Navbar() {
           <div className="right">
             {/* <AiTwotoneStar size={28} className="star"></AiTwotoneStar>
           <BiUserCircle size={28} className="user"></BiUserCircle> */}
-            <AiOutlineMenuFold className="menu" size={28} onClick={onclicked} />
+            <i
+              className="fa-solid fa-bars fa-2x mneu"
+              style={{ color: "#ffffff" }}
+              onClick={onclicked}
+            ></i>
           </div>
         </div>
         <div className={"center " + " " + visiblity}>
