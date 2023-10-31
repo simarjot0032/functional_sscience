@@ -21,7 +21,7 @@ function Navbar() {
           </div>
           <div className="right">
             <i
-              className="fa-solid fa-bars fa-2x mneu"
+              className="fa-solid fa-bars fa-2x menu"
               style={{ color: "#ffffff" }}
               onClick={onclicked}
             ></i>
