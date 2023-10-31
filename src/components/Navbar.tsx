@@ -1,23 +1,16 @@
 import { Link } from "react-router-dom";
 import { PiBooksDuotone } from "react-icons/pi";
-import {
-  AiOutlineCloseCircle,
-  AiOutlineMenuFold,
-  AiTwotoneStar,
-} from "react-icons/ai";
-import { BiUserCircle } from "react-icons/bi";
+
 import { useState } from "react";
 
 function Navbar() {
-  const [visiblity, setvisiblity] = useState("close");
+  const [visiblity, setvisiblity] = useState("");
   const onclicked: any = () => {
     setvisiblity("open");
     document.querySelector(".fa-bars")?.classList.toggle("fa-xmark");
     document.querySelector(".center")?.classList.toggle("open");
   };
-  // const onclose: any = () => {
-  //   setvisiblity("close");
-  // };
+
   return (
     <>
       <div className="bignav">
@@ -27,8 +20,6 @@ function Navbar() {
             <h1 className="name">Functional Science</h1>
           </div>
           <div className="right">
-            {/* <AiTwotoneStar size={28} className="star"></AiTwotoneStar>
-          <BiUserCircle size={28} className="user"></BiUserCircle> */}
             <i
               className="fa-solid fa-bars fa-2x mneu"
               style={{ color: "#ffffff" }}

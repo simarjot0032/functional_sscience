@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "../styles/Form.css";
 export default function Contactform() {
-  //   const [currentdisablelogo, setenablelogo] = useState("disable");
+  const [currentbtn, setbtn] = useState("btnsub");
+
   return (
     <>
       <div
@@ -17,7 +18,6 @@ export default function Contactform() {
           <label htmlFor="name" className="lable">
             Name:
           </label>
-
           <input
             type="text"
             name="user"
@@ -30,7 +30,6 @@ export default function Contactform() {
           <label htmlFor="class" className="lable">
             Class:
           </label>
-
           <input
             type="text"
             name="userclass"
@@ -43,7 +42,6 @@ export default function Contactform() {
           <label htmlFor="class" className="lable">
             Email:
           </label>
-
           <input
             type="text"
             name="useremail"
@@ -56,7 +54,6 @@ export default function Contactform() {
           <label htmlFor="number" className="lable">
             Phone Number:
           </label>
-
           <input
             type="tel"
             name="userphonenumber"
@@ -70,14 +67,17 @@ export default function Contactform() {
           <label htmlFor="feedback" className="lable">
             Your Query:
           </label>
-
           <textarea
             id="feedback"
             rows={5}
-            placeholder="Entery your feedbak or Query"
+            placeholder="Enter your feedback or Query"
           ></textarea>
           <br></br>
-          <button type="submit" disabled className={" btndisable btnsub"}>
+          <button
+            type="submit"
+            disabled
+            className={" btndisable " + " " + `${currentbtn}`}
+          >
             Submit
           </button>
         </form>
