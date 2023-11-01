@@ -14,6 +14,7 @@ import { SiTestcafe } from "react-icons/si";
 import { MdOutlineAssignment } from "react-icons/md";
 import { Footer } from "./Footer";
 import Contactform from "./Contactform";
+import React from "react";
 const Home = () => {
   return (
     <>
