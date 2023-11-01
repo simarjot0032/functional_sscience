@@ -8,6 +8,7 @@ import image3 from "../assets/assignment.png";
 import Cards from "./Webcard";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import React from "react";
 // import Classtenbooksci from "./Classtenbooksci";
 export default function Notes() {
   let images = [image2, image3];
