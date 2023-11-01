@@ -43,21 +43,27 @@ function App() {
           <Route path="/" element={<Home></Home>}></Route>
           <Route path=" " element={<Home></Home>}></Route>
 
-          <Route path="/Home" element={<Home></Home>}></Route>
+          <Route path="/functional_sciene/Home" element={<Home></Home>}></Route>
 
           <Route path="/functional_science" element={<Home></Home>}></Route>
 
-          <Route path="/Books" element={<Books></Books>}></Route>
-
-          <Route path="/Notes" element={<Notes></Notes>}></Route>
+          <Route
+            path="/funcitonal_science/Books"
+            element={<Books></Books>}
+          ></Route>
 
           <Route
-            path="/Samplepapers"
+            path="/functional_science/Notes"
+            element={<Notes></Notes>}
+          ></Route>
+
+          <Route
+            path="/functional_science/Samplepapers"
             element={<Samplepapers></Samplepapers>}
           ></Route>
 
           <Route
-            path="/Assignments"
+            path="/functional_science/Assignments"
             element={<Assignment></Assignment>}
           ></Route>
 
