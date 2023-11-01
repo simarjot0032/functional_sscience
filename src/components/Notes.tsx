@@ -4,12 +4,13 @@ import "../styles/Subjects.css";
 import "../styles/Notes.css";
 import image1 from "../assets/imgforbooks.jpg";
 import image2 from "../assets/imgbooks2.jpg";
+import image3 from "../assets/assignment.png";
 import Cards from "./Webcard";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 // import Classtenbooksci from "./Classtenbooksci";
 export default function Notes() {
-  let images = [image1, image2];
+  let images = [image1, image2, image3];
 
   const [index, setindex] = useState(0);
   const [currentimage, setimage] = useState(images[index]);
