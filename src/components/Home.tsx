@@ -166,7 +166,7 @@ const Home = () => {
             <div className="img-study">
               <img src={assignments} alt="" className="study-img" />
             </div>
-          </div>{" "}
+          </div>
           <div className="study-card blue">
             <div className="study-card-heading">NCERT Solution</div>
 
