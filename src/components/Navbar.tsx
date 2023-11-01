@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
 import { PiBooksDuotone } from "react-icons/pi";
-
+import { AiOutlineMenuFold } from "react-icons/ai";
 import { useState } from "react";
 
 function Navbar() {
-  const [visiblity, setvisiblity] = useState("");
+  const [visiblity, setvisiblity] = useState(false);
   const onclicked: any = () => {
-    setvisiblity("open");
-    document.querySelector(".fa-bars")?.classList.toggle("fa-xmark");
-    document.querySelector(".center")?.classList.toggle("open");
+    setvisiblity(!visiblity);
+    // document.querySelector(".fa-bars")?.classList.toggle("fa-xmark");
+    // document.querySelector(".center")?.classList.toggle("open");
+  };
+  const closemenu: any = () => {
+    setvisiblity(false);
   };
 
   return (
@@ -20,28 +23,38 @@ function Navbar() {
             <h1 className="name">Functional Science</h1>
           </div>
           <div className="right">
-            <i
+            <AiOutlineMenuFold
               className="fa-solid fa-bars fa-2x menu"
               style={{ color: "#ffffff" }}
               onClick={onclicked}
-            ></i>
+            ></AiOutlineMenuFold>
           </div>
         </div>
-        <div className={"center " + " " + visiblity}>
+        <div className={"center " + " " + `${visiblity ? "open" : ""}`}>
           <Link to="/Home" className="link">
-            <li className="nav-links">Home</li>
+            <li className="nav-links" onClick={closemenu}>
+              Home
+            </li>
           </Link>
           <Link to="/Books" className="link">
-            <li className="nav-links">Books</li>
+            <li className="nav-links" onClick={closemenu}>
+              Books
+            </li>
           </Link>
           <Link to="/Notes" className="link">
-            <li className="nav-links">Notes</li>
+            <li className="nav-links" onClick={closemenu}>
+              Notes
+            </li>
           </Link>
           <Link to="/Samplepapers" className="link">
-            <li className="nav-links">Sample Papers</li>
+            <li className="nav-links" onClick={closemenu}>
+              Sample Papers
+            </li>
           </Link>
           <Link to="/Assignments" className="link">
-            <li className="nav-links">Assignments</li>
+            <li className="nav-links" onClick={closemenu}>
+              Assignments
+            </li>
           </Link>
         </div>
       </div>

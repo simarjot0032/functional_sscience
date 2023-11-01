@@ -99,6 +99,7 @@ body::-webkit-scrollbar-thumb{
   .center{
     display: flex ;
     flex-direction: row;
+    align-items: center;
     
   }
   .bignav{
@@ -122,6 +123,8 @@ body::-webkit-scrollbar-thumb{
   .center{
     display: flex ;
     flex-direction: row;
+    align-items: center;
+
   }
   .bignav{
     display: flex;
@@ -144,6 +147,8 @@ body::-webkit-scrollbar-thumb{
   .center{
     display: flex ;
     flex-direction: row;
+    align-items: center;
+
   }
   /* .nav-links,.link{
     display: flex;
