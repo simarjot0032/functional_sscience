@@ -10,7 +10,7 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 // import Classtenbooksci from "./Classtenbooksci";
 export default function Notes() {
-  let images = [image1, image2, image3];
+  let images = [image2, image3];
 
   const [index, setindex] = useState(0);
   const [currentimage, setimage] = useState(images[index]);
