@@ -14,7 +14,7 @@ import { SiTestcafe } from "react-icons/si";
 import { MdOutlineAssignment } from "react-icons/md";
 import { Footer } from "./Footer";
 import Contactform from "./Contactform";
-import React from "react";
+
 const Home = () => {
   return (
     <>
@@ -226,7 +226,7 @@ const Home = () => {
         </div>
         {/* form */}
         <div className="forms" style={{ margin: "1rem" }}>
-          <Contactform></Contactform>
+          {/* <Contactform></Contactform> */}
         </div>
       </div>
       <Footer></Footer>
