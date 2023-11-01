@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import Menubar from "./components/Menubar";
 import Books from "./components/Books";
 import Classtenbooks from "./components/Classtenbooks";
-// import Classninebooks from "./components/Classninebooks";
 import Classtenbooksci from "./components/Classtenbooksci";
 import Classtenbookmath from "./components/Classtenbookmath";
 import Classninescibook from "./components/Classninescibook";
@@ -42,6 +41,7 @@ function App() {
         <Routes>
           {/* routes setup for all routes */}
           <Route path="/" element={<Home></Home>}></Route>
+          <Route path=" " element={<Home></Home>}></Route>
 
           <Route path="/Home" element={<Home></Home>}></Route>
 
