@@ -15,9 +15,9 @@
 }
 .books-cards{
     background-color: rgb(248, 248, 248);
-    width: 220px;
+    width: 180px;
     padding: 1.5rem;
-    height: 250px;
+    height: 200px;
     border-radius: 20px;
 }
 .cards-heading,.cards-class{
@@ -54,6 +54,13 @@ text-decoration: none;
     .assignment-section{
         margin-top:1rem ;
         flex-direction: row;
+    }
+    .books-cards{
+        background-color: rgb(248, 248, 248);
+        width: 220px;
+        padding: 1.5rem;
+        height: 250px;
+        border-radius: 20px;
     }
 }
 @media screen and (min-width:1024px) {
