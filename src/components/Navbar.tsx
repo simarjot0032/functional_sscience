@@ -36,7 +36,7 @@ function Navbar() {
               Home
             </li>
           </Link>
-          <Link to="/functional_science/Books" className="link">
+          <Link to="/funcitonal_science/Books" className="link">
             <li className="nav-links" onClick={closemenu}>
               Books
             </li>
