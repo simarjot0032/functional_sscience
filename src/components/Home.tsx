@@ -226,7 +226,7 @@ const Home = () => {
         </div>
         {/* form */}
         <div className="forms" style={{ margin: "1rem" }}>
-          {/* <Contactform></Contactform> */}
+          <Contactform></Contactform>
         </div>
       </div>
       <Footer></Footer>
