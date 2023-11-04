@@ -1,5 +1,5 @@
 import "./index.css";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Menubar from "./components/Menubar";
@@ -35,35 +35,23 @@ import Assignmentninemaths from "./components/Assignmentninemaths";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar></Navbar>
         <Menubar></Menubar>
         <Routes>
           {/* routes setup for all routes */}
           <Route path="/" element={<Home></Home>}></Route>
-          <Route path=" " element={<Home></Home>}></Route>
+          <Route path="/Books" element={<Books></Books>}></Route>
 
-          <Route path="/functional_sciene/Home" element={<Home></Home>}></Route>
-
-          <Route path="/functional_science" element={<Home></Home>}></Route>
+          <Route path="/Notes" element={<Notes></Notes>}></Route>
 
           <Route
-            path="/funcitonal_science/Books"
-            element={<Books></Books>}
-          ></Route>
-
-          <Route
-            path="/functional_science/Notes"
-            element={<Notes></Notes>}
-          ></Route>
-
-          <Route
-            path="/functional_science/Samplepapers"
+            path="/Samplepapers"
             element={<Samplepapers></Samplepapers>}
           ></Route>
 
           <Route
-            path="/functional_science/Assignments"
+            path="/Assignments"
             element={<Assignment></Assignment>}
           ></Route>
 
@@ -164,7 +152,7 @@ function App() {
             element={<Assignmentninemaths></Assignmentninemaths>}
           ></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

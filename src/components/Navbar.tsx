@@ -31,27 +31,27 @@ function Navbar() {
           </div>
         </div>
         <div className={"center " + " " + `${visiblity ? "open" : ""}`}>
-          <Link to="/functional_sciene/Home" className="link">
+          <Link to="/" className="link">
             <li className="nav-links" onClick={closemenu}>
               Home
             </li>
           </Link>
-          <Link to="/funcitonal_science/Books" className="link">
+          <Link to="Books" className="link">
             <li className="nav-links" onClick={closemenu}>
               Books
             </li>
           </Link>
-          <Link to="/functional_science/Notes" className="link">
+          <Link to="Notes" className="link">
             <li className="nav-links" onClick={closemenu}>
               Notes
             </li>
           </Link>
-          <Link to="/functional_science/Samplepapers" className="link">
+          <Link to="Samplepapers" className="link">
             <li className="nav-links" onClick={closemenu}>
               Sample Papers
             </li>
           </Link>
-          <Link to="/functional_science/Assignments" className="link">
+          <Link to="Assignments" className="link">
             <li className="nav-links" onClick={closemenu}>
               Assignments
             </li>
