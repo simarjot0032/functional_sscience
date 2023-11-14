@@ -1,6 +1,20 @@
 import "../styles/Classbooks.css";
 import Footer from "./Footer";
 import Indiviualchapter from "./Indiviualchapter";
+import Chapter1 from "../assets/Chapter-1-Matter-In-Our-Surroundings-1.pdf";
+import Chapter2 from "../assets/Chapter-2-matter-in-our-surroundings.docx.pdf";
+import Chapter3 from "../assets/Atoms-And-Molecules-Class-9-Notes-Chapter-3.docx.pdf";
+import Chapter4 from "../assets/Chapter-2-matter-in-our-surroundings.docx.pdf";
+import Chapter5 from "../assets/The-Fundamental-Unit-Of-Life-Class-9-Notes-Chapter-5.pdf";
+import Chapter6 from "../assets/CBSE-Class-9-Science-Notes-on-Tissues.pdf";
+import Chapter7 from "../assets/Force-and-Laws-of-Motion.pdf";
+import Chapter8 from "../assets/Force-and-Laws-of-Motion.pdf";
+import Chapter9 from "../assets/Class-9-Science-Chapter-10-Gravitation.docx.pdf";
+import Chapter10 from "../assets/Class-9-Science-Chapter-10-Gravitation.docx.pdf";
+import Chapter11 from "../assets/Class-9-Science-Chapter-10-Gravitation.docx.pdf";
+
+import Chapter12 from "../assets/Class-9-Science-Chapter-10-Gravitation.docx.pdf";
+
 import Image from "../assets/books-removebg-preview.png";
 
 export default function Notesninesci() {
@@ -14,62 +28,62 @@ export default function Notesninesci() {
       <Indiviualchapter
         numberofchapter={2}
         chaptername="1. Matters In Our Surroundings"
-        linkitem={Image}
+        linkitem={Chapter1}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={3}
         chaptername="2. Is Matter Around Us Pure"
-        linkitem={Image}
+        linkitem={Chapter2}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={4}
         chaptername="3. Atoms & Molecules"
-        linkitem={Image}
+        linkitem={Chapter3}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={5}
         chaptername="4. Structure Of The Atom"
-        linkitem={Image}
+        linkitem={Chapter5}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={6}
         chaptername="5. The Fundamentals Unit Of Life"
-        linkitem={Image}
+        linkitem={Chapter5}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={7}
         chaptername="6. Tissues"
-        linkitem={Image}
+        linkitem={Chapter6}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={8}
         chaptername="7. Motion"
-        linkitem={Image}
+        linkitem={Chapter7}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={9}
         chaptername="8. Forcw And Laws Of Motion"
-        linkitem={Image}
+        linkitem={Chapter8}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={10}
         chaptername="9. Gravitaion"
-        linkitem={Image}
+        linkitem={Chapter9}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={11}
         chaptername="10. Work & Energy"
-        linkitem={Image}
+        linkitem={Chapter10}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={12}
         chaptername="11. Sounds"
-        linkitem={Image}
+        linkitem={Chapter11}
       ></Indiviualchapter>
       <Indiviualchapter
         numberofchapter={13}
         chaptername="12. Improvements In Food Resources"
-        linkitem={Image}
+        linkitem={Chapter12}
       ></Indiviualchapter>
 
       <Footer></Footer>

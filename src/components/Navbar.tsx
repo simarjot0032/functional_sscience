@@ -7,8 +7,6 @@ function Navbar() {
   const [visiblity, setvisiblity] = useState(false);
   const onclicked: any = () => {
     setvisiblity(!visiblity);
-    // document.querySelector(".fa-bars")?.classList.toggle("fa-xmark");
-    // document.querySelector(".center")?.classList.toggle("open");
   };
   const closemenu: any = () => {
     setvisiblity(false);
@@ -27,6 +25,7 @@ function Navbar() {
               className="fa-solid fa-bars fa-2x menu"
               style={{ color: "#ffffff" }}
               onClick={onclicked}
+              size={25}
             ></AiOutlineMenuFold>
           </div>
         </div>
