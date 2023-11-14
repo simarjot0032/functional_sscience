@@ -72,6 +72,8 @@ hr{
     color: orange;
     font-size: 1.5rem;
     margin-left:1.5rem ;
+    font-weight: 800;
+
 }
 .hr-specialization{
     width: 70%;
@@ -184,8 +186,12 @@ hr{
     border-radius: 10px;
     
     width: 290px;
-    height: 330px;
+    height: 320px;
     padding-bottom: 0;
+}
+.study-card:hover{
+    transform: scale(1.1);
+    transition: all 0.2s linear;
 }
 .study-card-heading{
     color: white;
@@ -239,6 +245,9 @@ hr{
     display: flex;
     justify-content: center;
     
+   }
+   .homelinks{
+    text-decoration: none;
    }
 @media screen and (min-width:768px) and (max-width:1023px) {
     hr{

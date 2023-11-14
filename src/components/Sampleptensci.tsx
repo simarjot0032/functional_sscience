@@ -2,81 +2,30 @@ import "../styles/Classbooks.css";
 import Footer from "./Footer";
 import Indiviualbook from "./Indiviualchapter";
 import Image from "../assets/books-removebg-preview.png";
+import Sample1 from "../assets/Science-SQP 2023-24.pdf";
+import Sample2 from "../assets/Science-SQP 2023-22.pdf";
+import Sample3 from "../assets/CBSE-Class-10-Science-Sample-Paper-Set-1.pdf";
 
 export default function Sampleptensci() {
   return (
     <>
-      <Indiviualbook
-        numberofchapter={1}
-        chaptername="Prelims"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={2}
-        chaptername="1. Chemical Reactions and Equations"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={3}
-        chaptername="2. Acids,Bases and Salts"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={4}
-        chaptername="3. Metals and Non-Metals"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={5}
-        chaptername="4. Carbon & its Compunds"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={6}
-        chaptername="5. Lifeproccess"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={7}
-        chaptername="6. Control and Cordination"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={8}
-        chaptername="7. How do Oransims Reproduce"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={9}
-        chaptername="8. Heridity"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={10}
-        chaptername="9. Light-Reflection & Refraction "
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={11}
-        chaptername="10. The Human Eye & the Colorful World"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={12}
-        chaptername="11. Electricity"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={13}
-        chaptername="12. Magnetic Effects of Electic Current"
-        linkitem={Image}
-      ></Indiviualbook>
-      <Indiviualbook
-        numberofchapter={14}
-        chaptername="13. Our Enviroment"
-        linkitem={Image}
-      ></Indiviualbook>
-
+      <div style={{ height: "90vh" }}>
+        <Indiviualbook
+          numberofchapter={1}
+          chaptername="1.Sample Paper 1"
+          linkitem={Sample1}
+        ></Indiviualbook>
+        <Indiviualbook
+          numberofchapter={2}
+          chaptername="2. Sample Paper 2"
+          linkitem={Sample2}
+        ></Indiviualbook>
+        <Indiviualbook
+          numberofchapter={3}
+          chaptername="3. Sample Paper 3"
+          linkitem={Sample3}
+        ></Indiviualbook>
+      </div>
       <Footer></Footer>
     </>
   );

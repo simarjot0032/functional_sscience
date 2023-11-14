@@ -13,7 +13,7 @@ import { GrNotes } from "react-icons/gr";
 import { SiTestcafe } from "react-icons/si";
 import { MdOutlineAssignment } from "react-icons/md";
 import { Footer } from "./Footer";
-import Contactform from "./Contactform";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -66,6 +66,7 @@ const Home = () => {
                 guidance to unlock your full potential in the subject
               </p>
             </div>
+
             <div className="card">
               <div className="specialicon">
                 <GrNotes className="icons" size="50"></GrNotes>
@@ -139,41 +140,51 @@ const Home = () => {
         </div>
         <hr className="hr-specialization" />
         <div className="study">
-          <div className="study-card blue">
-            <div className="study-card-heading">NCERT Books</div>
+          <Link to="Books" className="homelinks">
+            <div className="study-card blue">
+              <div className="study-card-heading">NCERT Books</div>
 
-            <div className="img-study">
-              <img src={ncert} alt="" className="study-img" />
+              <div className="img-study">
+                <img src={ncert} alt="" className="study-img" />
+              </div>
             </div>
-          </div>
-          <div className="study-card orange">
-            <div className="study-card-heading">Sample Papers</div>
+          </Link>
+          <Link to="Samplepapers" className="homelinks">
+            <div className="study-card orange">
+              <div className="study-card-heading">Sample Papers</div>
 
-            <div className="img-study">
-              <img src={samplepaper} alt="" className="study-img sample" />
+              <div className="img-study">
+                <img src={samplepaper} alt="" className="study-img sample" />
+              </div>
             </div>
-          </div>
-          <div className="study-card blue">
-            <div className="study-card-heading">Notes</div>
+          </Link>
+          <Link to="Notes" className="homelinks">
+            <div className="study-card blue">
+              <div className="study-card-heading">Notes</div>
 
-            <div className="img-study">
-              <img src={note} alt="" className="study-img" />
+              <div className="img-study">
+                <img src={note} alt="" className="study-img" />
+              </div>
             </div>
-          </div>
-          <div className="study-card orange">
-            <div className="study-card-heading">Assignments</div>
+          </Link>
+          <Link to="Assignments" className="homelinks">
+            <div className="study-card orange">
+              <div className="study-card-heading">Assignments</div>
 
-            <div className="img-study">
-              <img src={assignments} alt="" className="study-img" />
+              <div className="img-study">
+                <img src={assignments} alt="" className="study-img" />
+              </div>
             </div>
-          </div>
-          <div className="study-card blue">
-            <div className="study-card-heading">NCERT Solution</div>
+          </Link>
+          <Link to="Notes" className="homelinks">
+            <div className="study-card blue">
+              <div className="study-card-heading">NCERT Solution</div>
 
-            <div className="img-study">
-              <img src={solution} alt="" className="study-img" />
+              <div className="img-study">
+                <img src={solution} alt="" className="study-img" />
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         <div className="review-heading">Students Review</div>
@@ -185,7 +196,7 @@ const Home = () => {
                 <img src={userimg} alt="" className="userimg" />
                 <div className="rname">Sukhmanpreet Singh</div>
               </div>
-              <div className="rating">⭐⭐⭐⭐(4/5)</div>
+              <div className="rating">⭐⭐⭐⭐⭐(5/5)</div>
               <div className="review-content">
                 Functional Science has been an absolute game-changer for me in
                 my 9th and 10th-grade studies. The platform offers a
@@ -214,12 +225,12 @@ const Home = () => {
                 <img src={userimg} alt="" className="userimg" />
                 <div className="rname">Simarjot Singh</div>
               </div>
-              <div className="rating"> ⭐⭐⭐⭐⭐(5/5)</div>
+              <div className="rating">⭐⭐⭐⭐⭐(5/5)</div>
               <div className="review-content">
                 Functional Scienceis an exceptional educational website for 11th
-                and 12th-grade students. The platform offers top-notch video
-                lectures, comprehensive study materials, and a vast library of
-                practice tests and past exam papers.
+                and 12th-grade students. The platform offers top-notch
+                comprehensive study materials, and a vast library of practice
+                tests and past exam papers.
               </div>
             </div>
           </div>
