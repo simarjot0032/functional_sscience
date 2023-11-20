@@ -4,7 +4,7 @@ import { MdClass, MdDriveFileRenameOutline } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiMessageDetail } from "react-icons/bi";
-import Supabase from "./Supabase";
+// import Supabase from "./Supabase";
 // let name = document.querySelector("#name")?.innerHTML;
 // let classs = document.querySelector("#class")?.innerHTML;
 // let phonenumber = document.querySelector("#number")?.innerHTML;
