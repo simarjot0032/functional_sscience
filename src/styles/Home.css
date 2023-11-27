@@ -96,9 +96,11 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    height: 250px;
+    height: fit-content;
+    
     border-radius: 12px;
    padding: 1rem;
+   padding-bottom:1.5rem;
     background-color: #95e4fc92;
     /* outline: 2px solid #95e4fc; */
 }
@@ -186,8 +188,8 @@ hr{
     border-radius: 10px;
     
     width: 290px;
-    height: 320px;
-    padding-bottom: 0;
+    /* height: 320px; */
+    padding-bottom: 1.5rem;
 }
 .study-card:hover{
     transform: scale(1.1);
