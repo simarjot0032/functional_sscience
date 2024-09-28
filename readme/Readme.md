@@ -1,4 +1,4 @@
-# Getting Started 
+# Getting Started For Linux
  Your need Internet to run this project even on local machine
 This project Functional Science was created uidng react  using typescript
 
